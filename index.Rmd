@@ -1,5 +1,5 @@
 ---
-title: "Sylvain Chabe-Ferret's Pas-a-Pas"
+title: "Sylvain Chab&eacute;-Ferret's &laquo;Pas-&agrave;-Pas&raquo;"
 ---
 
 Hello, World!
