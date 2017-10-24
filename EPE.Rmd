@@ -1,0 +1,73 @@
+---
+title: "Econometrics of Program Evaluation"
+---
+
+This course covers the basic theoretical knowledge and technical skills required for implementing Econometric Methods of Causal Inference. 
+These methods are used to tests predictions of economic theories and also to measure the impacts of programs. 
+These tools have been developed by social scientists, natural scientists and statisticians over the course of the last century. 
+Over the last thirty years, economists have regrouped most of these tools in a standard toolkit. 
+In this class, we will study this basic set of tools. 
+These tools have been developed and/or are heavily used in labor, education, development, health and environmental economics. 
+They are also used by funding agencies and governments to conduct evaluations of public policies and start being used by firms to evaluate product design, auction design, advertisement, etc. 
+
+The aim of this class is threefold:
+
+1. Provide the (minimal) mathematical underpinning required to apply Econometric Methods of Causal Inference
+2. Provide the R code in order to apply these methods
+3. Make extremely clear the statistical issues that these methods face and try to suggest solutions. I especially focus on sampling noise and the perils of significance testing. I also provide a description of the statistical tools required to detect and correct for publication bias: meta-analaysis, p-curves, etc.
+
+The course is structured in three broad sequences:
+
+1. [The Two Fundamental Problems of Inference](FPI.html)
++ [Rubin Causal Model](RCM.html): the basic language to encode causality.
++ Treatment Effects: our causal parameters of interest.
+We are going to focus most of the time on $TT$, the average effect of the Treatment on the Treated.
++ The Fundamental Problem of Causal Inference (FPCI): the Treatment Effects of interest can NEVER be observed, even with a sample of infinite size (a very acute problem indeed!). 
+What we can do instead is to use transformations of the observed data that, under certain assumptions, are equal to the Treatment Effect of interest when the sample size is infinite. 
++ The Biases of Intuitive Comparisons: a consequence of the FPCI is that the intuitive comparisons that we use for causal inference (the before/after and with/without comparisons) are generally biased because of factors that determine both the outcomes of the program and who receives it. 
+These factors are called confounding factors.
++ The Fundamental Problem of Statistical Inference (FPSI): in practice, sample sizes are finite. 
+As a consequence, in each sample, our estimator differs from the Treatment Effect of interest. 
+This phenomenon is called sampling noise. We will cover two useful statistical tools to help with this problem: gauging the size of the sampling noise ex-post; choosing sample size ex-ante to decrease sampling noise.
+I cover three ways to estimate sampling noise:
+  + Asymptotic theory using the Central Limit Theorem  (CLT)
+  + The Bootstrap 
+  + Randomization Inference
+  + The perils of significance testing: specification search and publication bias. 
+I suggest to NEVER use statistical tests and I explain why. 
+I suggest to gauge sampling noise instead.
+
+2. Methods of Causal Inference
+In this section, we learn the three sets of methods that are used by economists in order to suppress the influence of confounding factors and estimate Treatment Effects. 
+For each estimator, we will cover identification (how it solves the fundamental problem of causal inference absent sampling noise), estimation (how to compute an estimator with a sample) and precision (how to gauge the sensitivity of our estimate to sampling noise with independently and identically distributed (i.i.d.) observations).
++ Randomized Controlled Trials (RCTs) solve for the problem of the confounding factors by allocating the treatment at random, i.e. independently of the confounders. 
+We will cover the four most used RCT designs: randomization by brute force, after self-selection, after eligibility and encouragement designs. 
++ Natural Experiments leverage on features of the implementation of the program that approximate the conditions of a RCT. 
+We are going to cover the three most used natural experiment methods: Instrumental Variables (IV), Difference-In-Differences (DID) and Regression Discontinuity Designs (RDD). 
++ Observational methods try to measure the confounders and to account separately for their effects on the outcomes. 
+Standard observational methods that we are going to study are OLS and Matching. 
+I am also going to dedicate some time to more recent Observational Methods based on Machine Learning (ML).
+
+3. Additional important topics 
++ Power analysis: before implementing a given method, we want either to choose the sample size required to reach a pre-specified level of precision or to gauge the level of precision we might reach with a pre-specified sample size. 
++ How to estimate precision when observations are not i.i.d. 
++ Placebo tests: tests that we implement in order to check the validity of natural experiments and of observational methods. 
++ LaLonde tests: check whether observational methods and natural experiments can reproduce the results of RCTs. 
++ Analysis of diffusion effects.
++ Analysis of distributive effects.
++ Meta-analysis.
+
+I use $X_i$ to denote random variable $X$ all along the class.
+I assume that we have access to a sample of $N$ observations indexed by $i\in\left\{1,\dots,N\right\}$. 
+''$i$'' will denote the basic sampling units when we are in a sample, and a basic element of the probability space when we are in populations.
+Introducing rigorous measure-theoretic notations for the population is feasible but is not necessary for comprehension.
+
+When the sample size is infinite, we say that we have a population.
+A population is a very useful fiction for two reasons.
+First, in a population, there is no sampling noise: we observe an infinite amount of observations, and our estimators are infinitely precise.
+This is useful to study phenomena independently of sampling noise.
+For example, it is in general easier to prove that an estimator is equal to $TT$ under some conditions in the population. 
+Second, we are most of the time much more interested in estimating the values of parameters in the population rather than in the sample.
+The population parameter, independent of sampling noise, gives a much better idea of the causal parameter for the population of interest than the parameter in the sample. 
+In general, the estimator for both quantities will be the same, but the estimators for the effetc of sampling noise on these estimators will differ.
+Sampling noise for the population parameter will generally be larger, since it is affected by another source of variability (sample choice). 

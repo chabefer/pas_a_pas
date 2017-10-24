@@ -1,0 +1,20 @@
+---
+title: "Econometrics of Causal Inference"
+---
+
+Econometrics of Causal Inference refers to all the empirical tools that economists (and most social scientists, and actually most empirical scientists) use to extract causal relations from data. 
+I like to divide empirical methods for causal inference in the following 5 categories (this section mainly focuses on the first three types of methods):
+
+1. Randomized Controlled Trials (RCTs)
+2. Natural Experiments
+3. Observational Methods
+4. Controlled (lab) experiments
+5. Structural Models
+
+My work makes two main contributions to the Econometrics of Causal Inference. 
+
+First, I have been teaching for more than 5 years now the class ["Econometrics of Program Evaluation"](EPE.html) at TSE. 
+I have accumulated a lot of material and I want to convert this material in a self contained section of the "&laquo;Pas-&agrave;-Pas&raquo; website that can be used by anyone with notions in statistics to start learning the three main methods used by economists for causal inference, and how to apply them with R.
+
+Second, I have developed over the years a research program trying to improve the reliability of the Observational Methods of Causal Inference. 
+I am going to dedicate an entire section of this website to presenting the results of this research program.

@@ -2,4 +2,47 @@
 title: "Sylvain Chab&eacute;-Ferret's &laquo;Pas-&agrave;-Pas&raquo;"
 ---
 
-Hello, World!
+__English__
+
+Hello everyone and welcome to my &laquo;Pas-&agrave;-Pas&raquo; webpage. 
+
+I have named my website &laquo;Pas-&agrave;-Pas&raquo; (French for Step by Step) because I believe that it is only by slowly accumulating rigorous empirical evidence that we are going to tackle the social problems of our time. 
+I am trying to set &laquo;Pas-&agrave;-Pas&raquo; as a stepping stone in that process. 
+With &laquo;Pas-&agrave;-Pas&raquo;, I would like to do slightly more than present my research and teaching. 
+I would like to create an interface for everyone to use in order to learn about what I am doing but also about the more general context of my research areas. 
+On top of my colleagues knowing what I'm up to, I would like &laquo;Pas-&agrave;-Pas&raquo; to be a resource for students, citizens, journalists and policymakers in search for up-to-date evidence-based information on my main research areas. 
+
+In the ["Econometrics of Causal Inference"](Inference.html) section of &laquo;Pas-&agrave;-Pas&raquo;, I am going to progressively upload, on top of my research results, the full content of my "Econometrics of Program Evaluation" class. 
+I have designed this class so as to be self-contained and accompanied by the corresponding R code. 
+My hope with making this material widely accessible is that it will enable more students to learn and understand key empirical tools of causal inference.
+
+In the "Agro-Environmental Policies" section of &laquo;Pas-&agrave;-Pas&raquo;, I plan to add, on top of my own research, sections about the literature giving a broader view of the main issues and results. 
+I might also decide to upload there the content of my "Empirical Environmental Economics" class. 
+
+In the "Education" section of &laquo;Pas-&agrave;-Pas&raquo;, I mainly want to summarize in an accessible manner the available empirical evidence on the most effective educational programs trying to improve the lives of children from destitute backgrounds. 
+As I would like to communicate this information widely in France, this last section will mainly be in French.
+
+In the "Teaching Economics as Science" section of &laquo;Pas-&agrave;-Pas&raquo;, I will present examples of major empirical results in economics and the way that I think they should be included in the undergraduate economics curriculum.
+
+Please, do not refrain from commenting on any section of the website. It will only make it better.
+
+__Français__
+
+Bonjour à tous et bienvenue sur ma page web, &laquo;Pas-&agrave;-Pas&raquo;. 
+Je suis Ingénieur de Recherches en économie à l'Institut National de la Recherche Agronomique et membre de l'Ecole d'Economie de Toulouse et de l'Institut d'Etudes Avancées de Toulouse. Mes recherches portent sur les méthodes économétriques d'inférence causale, les politiques agro-environnementales et l'éducation.
+J'ai nommé mon site Internet &laquo;Pas-&agrave;-Pas&raquo; parce que je suis convaincu que le progrès social ne peut se faire que graduellement - pas-à-pas - grace à l'accumulation progressive d'évaluations rigoureuses. 
+Je voudrais que "Pas-à-Pas" soit plus qu'un site où je présente les résultats de mes recherches à destination de mes collègues. 
+Je voudrais que "Pas-à-Pas" soit une ressource pour les étudiants, les citoyens, les journalistes et les politiques qui souhaitent obtenir des informations sur les résultats empiriques les plus récents et rigoureux sur mes sujets de recherche.
+
+La section "Econometrics of Causal Inference" contiendra à terme, en plus de mes recherches, l'ensemble de mon cours de M2 "The Econometrics of Program Evaluation". 
+J'ai conçu ce cours de manière à ce qu'il permette à un étudiant ayant des bases en statistiques d'apprendre à utiliser les principales méthodes d'inférence causale avec le logiciel R. 
+Mon objectif en rendant cette classe publique est de permettre au plus grand nombre possible de se former aux méthodes empiriques les plus utilisées en sciences sociales pour construire un savoir basé sur la preuve.
+
+La section "Agro-Environmental Policies" contiendra progressivement des synthèses des résultats de la littérature permettant de positionner les résultats que mes collègues et moi-même avons obtenu.
+
+La section "Education" contiendra des résumés que j'espère accessible au plus grand nombre sur les résultats des programmes les plus efficaces pour améliorer la vie des enfants des milieux défavorisés. 
+Cette section sera majoritairement en Français, car elle vise à familiariser le grand-public français avec des résultats peu connus dans notre pays.
+
+La section "Teaching Economics as a Science" présentera progressivement des exemples de résultats scientifiques empiriques majeurs en économie dont je pense qu'ils devraient intégrer le cursus de notre discipline dès le début de la License.
+
+N'hésitez pas à laisser des commentaires sur ce site, ils me seront précieux pour essayer de l'améliorer.

@@ -2,4 +2,8 @@
 title: "About Me"
 ---
 
-Why I am awesome. 
+I am a researcher in economics at Inra, the French Research Institute for Agriculture and the Environment. 
+I am also a member of the Toulouse School of Economics and of the Institute for Advanced Studies in Toulouse. 
+My main research areas are the econometric methods of causal inference, agro-environmental policies and education. 
+
+![](C:/private/Private/administratif/CV/photos/chabe_ferret_s_hd.jpg)

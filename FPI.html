@@ -11,7 +11,7 @@
 
 
 
-<title>About Me</title>
+<title>The Two Fundamental Problems of Inference</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -205,16 +205,14 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About Me</h1>
+<h1 class="title toc-ignore">The Two Fundamental Problems of Inference</h1>
 
 </div>
 
 
-<p>I am a researcher in economics at Inra, the French Research Institute for Agriculture and the Environment. I am also a member of the Toulouse School of Economics and of the Institute for Advanced Studies in Toulouse. My main research areas are the econometric methods of causal inference, agro-environmental policies and education.</p>
-<div class="figure">
-<img src="C:/private/Private/administratif/CV/photos/chabe_ferret_s_hd.jpg" />
-
-</div>
+<p>When trying to estimate the effect of a program on an outcome, we face two very important and difficult problems: the Fundamental Problem of Causal Inference (FPCI) and the Fundamental Problem of Statistical Inference (FPSI).</p>
+<p>In its most basic form, the FPCI states that our causal parameter of interest (TT, short for Treatment on the Treated) is fundamentally unobservable, even when the sample size is infinite. The main reason for that is that one component of the <span class="math inline">\(TT\)</span>, the outcome of the treated had they not received the program, remains unobservable. We call this outcome a counterfactual outcome. The FPCI is a very dispiriting result that is actually the basis for all of the econometric methods we are going to see in this class. All of these methods try to find ways to estimate the counterfactual by using observable quantities that hopefully approximate it as well as possible. Most people, including us but also policymakers, generally rely on intuitive quantities in order to generate the counterfactual (individuals without the program or individuals before the program was implemented). Unfortunately, these approximations are generally very crude, and the resulting estimators of TT are genrally biased, sometimes severely.</p>
+<p>The Fundamental Problem of Statistical Inference (FPSI) states that, even if we have an estimator <span class="math inline">\(E\)</span> that identifies <span class="math inline">\(TT\)</span> in the population, we cannot observe <span class="math inline">\(E\)</span> because we only have access to a finite sample of the population. The only thing that we can form from the sample is a sample equivalent <span class="math inline">\(\hat{E}\)</span> to the population quantity <span class="math inline">\(E\)</span>, and <span class="math inline">\(\hat{E}\neq E\)</span>. Why is <span class="math inline">\(\hat{E}\neq E\)</span>? Because a finite sample is never perfectly representative of the population. What can we do to deal with the FPSI? I am going to argue that there are mainly two things that we might want to do: estimating the extent of sampling noise and decreasing sampling noise.</p>
 
 
 

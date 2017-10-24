@@ -1,9 +1,17 @@
 name: "Pas-a-Pas"
 output_dir: "."
 navbar:
-  title: "Sylvain Chabe-Ferret's Pas-a-Pas"
+  title: "Sylvain Chab&eacute;-Ferret's &laquo;Pas-&agrave;-Pas&raquo;"
   left:
     - text: "Home"
       href: index.html
+    - text: "Causal Inference"
+      href: Inference.html
+    - text: "Agri-Environmental Policies"
+      href: AEP.html
+    - text: "Education"
+      href: Education.html
+    - text: "Teaching Economics"
+      href: TEES.html
     - text: "About Me"
       href: about.html
